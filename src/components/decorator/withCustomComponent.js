@@ -24,6 +24,16 @@ export default function withCustomComponent(InnerComponent) {
   }
 }
 
+export const WithCustom = {
+  name: 'WithCustom',
+  render() {
+    const Slott = this.$slots.default[0];
+    // return  <Slott />;
+    return this.$slots.default[0];
+    // return <h1>slott</h1>;
+  }
+};
+
 function play({a,b}) {
   console.log('play')
   console.log(JSON.stringify(a));
