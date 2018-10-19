@@ -1,9 +1,8 @@
 <template>
-  <!-- Funny that template is not the root lolololol -->
-  <div>
-    <component v-bind:is="AMeCap" class="newClasshere1" data-event="load" msg="new message here 1"></component>
-    <component v-bind:is="BInCapVue" class="newClasshere2" data-event="load" msg="new message here 2"></component>
-  </div>
+  <!-- <component v-bind:is="AMeCap" class="newClasshere1" data-event="load" msg="new message here 1">
+
+  </component> -->
+  <slot class="newClasshere1" data-event="load" />
 </template>
 
 <script>
@@ -24,6 +23,9 @@ import BInCapVue from './BInCap.vue';
         BInCapVue,
         AMeCap,
       }
+    },
+    mounted() {
+      console.log('hoc mounted');
     }
   };
 </script>
