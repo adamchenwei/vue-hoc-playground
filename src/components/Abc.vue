@@ -17,7 +17,7 @@
       if (this.func) this.func();
       return (
         <div class="abcMyClass">
-          <h1>ABC: <span>Pal</span></h1>
+          <h1>ABC: <span>Pal</span> <span>{this.msg}</span></h1>
           <code>
             this.msg: {this.msg}<br />
             this.num: {this.num}<br />
