@@ -3,12 +3,6 @@
     name: 'bbc',
     props: {
       msg: String,
-      num: Number,
-      func: Function,
-      arr: Array,
-      obj: Object,
-      boo: Boolean,
-      date: Date,
     },
     mounted() {
       console.log('bbc is mounted');
