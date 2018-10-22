@@ -1,7 +1,7 @@
 <template>
   <!-- Funny that template is not the root lolololol -->
   <div>
-    <component v-bind:is="AMeCap" class="newClasshere1" data-event="load" msg="new message here 1"></component>
+    <component class="newClasshere1" data-event="load" msg="new message here 1"></component>
     <component v-bind:is="BInCapVue" class="newClasshere2" data-event="load" msg="new message here 2"></component>
   </div>
 </template>

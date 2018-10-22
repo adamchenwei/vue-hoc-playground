@@ -1,8 +1,6 @@
 <template>
-  <!-- <component v-bind:is="AMeCap" class="newClasshere1" data-event="load" msg="new message here 1">
-
-  </component> -->
-  <h1> :( </h1>
+  <component v-bind:is="AMeCap" class="newClasshere1" data-event="load" msg="new message here 1">
+  </component>
   <!-- well slot is not allowed to be root, how lol is that? -->
   <!-- <slot class="newClasshere1" data-event="load" /> -->
 </template>
