@@ -1,5 +1,7 @@
 # vue-hoc-playground
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/adamchenwei/vue-hoc-playground.svg)](https://greenkeeper.io/)
+
 ## Project setup
 ```
 yarn install
